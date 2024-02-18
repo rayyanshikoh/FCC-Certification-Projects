@@ -1,0 +1,71 @@
+
+body {
+    background: darkslateblue;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-heading {
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    padding: 2rem;
+    background: #352e67;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.75rem;
+}
+
+input, select {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-radius: 10px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+/* Add a class to the radio-label container to apply styles */
+.radio-label {
+    display: flex; /* Use flexbox to align items horizontally */
+    flex-direction: column; /* Stack the radio button and label vertically */
+    align-items: flex-start;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+    border-radius: 10px;
+}
+
+.checkbox-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+button {
+    width: 100%;
+    font-size: 1rem;
+    background: green;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0;
+}
